@@ -3,24 +3,24 @@ import CD from "../assets/projects/CD.png";
 import hungry from "../assets/projects/Hungry.png"
 import portfolio from "../assets/projects/portfolio.png"
 
-export const HERO_CONTENT = `I am a passionate FrontEnd developer with a talent for crafting responsive and maintainable web applications.With 2+ years of hands-on experience in modern JavaScript frameworks like React, Redux, and a strong background in integrating RESTful APIs, I aim to leverage my skills to create innovative and user-centric solutions that enhance productivity and user engagement.`;
+export const HERO_CONTENT = `I am a passionate FrontEnd developer with a talent for crafting responsive and maintainable web applications.With 3+ years of hands-on experience in modern JavaScript frameworks like React, Next, Redux, and a strong background in integrating RESTful APIs, I aim to leverage my skills to create innovative and user-centric solutions that enhance productivity and user engagement.`;
+export const ABOUT_TEXT = `I am a Senior Software Engineer with a passion for crafting seamless, user-focused web applications that drive both business growth and customer satisfaction. With a solid foundation in React.js, Next.js, and state management tools like Redux Toolkit, I specialize in building responsive and scalable solutions that deliver exceptional performance across devices.
+Currently at Visionet Systems, I focus on optimizing front-end performance using cutting-edge techniques like lazy loading, dynamic imports, and prefetching. I take pride in creating dynamic, accessible interfaces using React.js, Tailwind CSS, and robust design systems, ensuring compliance with WCAG guidelines for inclusivity. My expertise in automated testing with tools like Cypress and Jest ensures high-quality, stable code that reduces production bugs and accelerates delivery timelines.
 
-export const ABOUT_TEXT = `I am an innovative problem solver with a creative flair who is passionate about examining the nexus between technology and the human experience. 
+Previously at Accenture, I collaborated with cross-functional teams to build reusable React components, design intuitive user experiences, and integrate RESTful APIs for dynamic, data-driven web applications. My contributions led to significant improvements in productivity, user interaction speeds, and application maintainability.
 
-Leveraging my experience and adding to interesting projects that fit my values and interests is something I'm excited to do.
-
-In my initial days at Accenture, I have honed my skills in developing and managing strong security solutions for SAP systems. My experience with SAP Security has given me a thorough understanding of role creation, user management, access controls, and compliance requirements.
-Driven by a passion for crafting intuitive user experiences ,I transitioned into frontend development,
-where I am currently most comfortable making dynamic web apps and bringing concepts to life. Working on dynamic frontend projects that improve user interactions and spur corporate development has allowed me to use my solid foundation in HTML, CSS, and JavaScript.
-
-My journey at RCPL as a trainee furnished me with significant perspectives on the software development lifecycle and acquainted me with the most recent instruments, technologies, and industry best practices.
-I have developed an android application, demonstrating expertise in Java, and XML.
-
-My educational background includes a Bachelor's degree in Computer Science from KIIT University. Throughout my academic career, I stressed academic success as well as extracurricular activities. Maintaining a strong academic record, I took advantage of the chance to participate actively in a variety of extracurricular activities.
-
-My technical skills includes front-end development, back end development. I have hands-on experience with tools like Android Studio and Visual Studio Code, and I am fluent in several programming languages, including Java and JavaScript.`;
+In addition to professional roles, I have spearheaded innovative projects like a Cinematic Database and an E-Commerce Platform, where I implemented advanced features such as search, filtering, and real-time updates, enhancing user engagement and functionality.
+My technical skill set spans JavaScript (ES6+), HTML5, CSS3, Node.js, Redux, Airtable APIs, and modern frameworks like Tailwind CSS and Storybook. I’m also experienced with performance optimization, dynamic workflows, and Agile collaboration.
+What excites me most is the opportunity to combine my technical expertise with creative problem-solving to deliver impactful solutions that meet both user needs and business objectives. When I’m not coding, I’m exploring new technologies, learning about design systems, or diving into a good tech blog.`;
 
 export const EXPERIENCES = [
+  {
+    year: "Sept 2024 - Present",
+    role: "Senior Software Engineer",
+    company: "Visionet Systems",
+    description: `Architected and developed dynamic, server-rendered components with Next.js, enhancing application scalability and improving load times by 40%. Designed and implemented reusable UI components using React.js and Tailwind CSS, streamlining development workflows and boosting maintainability. Optimized complex state management with Redux Toolkit, ensuring seamless synchronization across features. Diagnosed and resolved critical performance bottlenecks by leveraging systematic debugging and performance profiling, achieving a 30% improvement in overall application stability.`,
+    technologies: ["Javascript", "Next.js", "Redux", "Airtable", "Storybook"],
+  },
   {
     year: "May 2021 - Oct 2023",
     role: "Application Development Analyst",
@@ -70,7 +70,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Hyderabad, Telangana ",
+  address: "Bengaluru ",
   phoneNo: "+91 9473446793",
   email: "srijalprasad@gmail.com",
 };

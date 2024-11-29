@@ -1,7 +1,7 @@
 import { HERO_CONTENT } from "../constants"
 import profilePic from "../assets/ProfilePic.jpeg";
 import { motion } from "framer-motion"
-import Resume from '../assets/Srijal-Prasad-Resume.pdf'
+import Resume from '../assets/Srijal_Prasad_Resume.pdf'
 const container=(delay)=>({
    hidden:{x: -100, opacity: 0},
    visible:{
@@ -30,7 +30,7 @@ function Hero() {
                     initial='hidden'
                     animate="visible"
                  className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent'>
-                    Software Developer
+                    Senior Software Engineer
                  </motion.span>
                  <motion.p 
                  variants={container(1)}
